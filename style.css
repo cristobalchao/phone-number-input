@@ -1,0 +1,103 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: auto;
+	position: relative;
+	padding: 35px;
+	max-width: 600px;
+}
+
+button {
+	border-radius: 3px;
+  background-color: #FFF;
+  border: 1px solid #e0e0e0;
+  cursor: pointer;
+  font-size: 1em;
+  padding: 7px;
+  text-transform: uppercase;
+  outline: none;
+}
+
+section {
+	text-align: center;
+}
+
+.phone-template {
+	font-size: 28px;
+	text-align: center;
+  padding: 36px 0 20px 0;
+}
+
+body.finish section {
+	display: none;
+}
+
+body.finish .phone-template {
+	display: block;
+	border: 1px solid;
+ 	font-size: 64px;
+ 	margin-top: 60px;
+}
+
+.phone-template span {
+	opacity: .1;
+}
+
+.phone-template span.ok {
+	color: green;
+	opacity: 1;
+}
+
+.phone-template span.active {
+	color: blue;
+	font-weight: bold;
+	opacity: 1;
+}
+
+.phone-current-split {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+.phone-current-split span {
+	font-size: 52px;
+	padding: 0 12px;
+}
+
+.user-inputs {
+  padding-top: 20px;
+}
+
+.user-inputs * {
+	margin: 0 10px;
+}
+
+.reset__btn {
+	position: absolute;
+	right: 0;
+}
+
+.reset__btn:hover {
+	background-color: red;
+	color: white;
+}
+
+.less_btn, .greater__btn {
+	font-size: 19px;
+	padding: 4px;
+}
+
+.less__btn:hover, .greater__btn:hover {
+	background-color: blue;
+	color: white;
+}
+
+.yes__btn:hover {
+	background-color: green;
+	color: white;
+}
