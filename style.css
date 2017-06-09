@@ -43,6 +43,12 @@ body.finish .phone-template {
  	margin-top: 60px;
 }
 
+body.finish .phone-template span {
+ color: green;
+ font-weight: normal;
+ opacity: 1;
+}
+
 .phone-template span {
 	opacity: .1;
 }
@@ -64,7 +70,7 @@ body.finish .phone-template {
 	justify-content: center;
 }
 
-.phone-current-split span {
+.phone-current-split .value {
 	font-size: 52px;
 	padding: 0 12px;
 }
@@ -97,7 +103,7 @@ body.finish .phone-template {
 	color: white;
 }
 
-.yes__btn:hover {
+.equal__btn:hover {
 	background-color: green;
 	color: white;
 }

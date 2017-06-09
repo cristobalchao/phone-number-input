@@ -6,22 +6,31 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<button class="reset__btn">Reset</button>
+	<button role="button" data-action="RESET" class="reset__btn">
+		Reset
+	</button>
 
 	<section class="phone-template">
-		<span class="split-0"></span>-<span class="split-1"></span>-<span class="split-2"></span>
+		<span></span>-<span></span>-<span></span>
 	</section>
 
 	<section class="phone-current-split">
-		<button class="less__btn"><</button>
-		<span>XXX</span>
-		<button class="greater__btn">></button>
+		<button role="button" data-action="VALUE_IS_LESS" class="less__btn">
+			<
+		</button>
+		<span class="value"></span>
+		<button role="button" data-action="VALUE_IS_GREATER" class="greater__btn">
+			>
+		</button>
 	</section>
 
 	<section class="user-inputs">
-		<button class="yes__btn">✔</button>		
+		<button role="button" data-action="VALUE_IS_EQUAL" class="equal__btn">
+			✔
+		</button>
 	</section>
 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/redux/3.0.5/redux.min.js"></script>
 	<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
