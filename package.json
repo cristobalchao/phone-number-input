@@ -1,0 +1,31 @@
+{
+  "name": "phone",
+  "description": "Sample Redux+ES6 app",
+  "author": "Cristobal Chao",
+  "version": "0.1.1",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "start": "cross-env NODE_ENV=development DEBUG=phone:* node bin/build.js"
+  },
+  "dependencies": {
+    "autoprefixer": "^6.3.7",
+    "babel": "^6.5.2",
+    "babel-core": "^6.11.4",
+    "babel-plugin-lodash": "^3.2.4",
+    "babel-preset-latest": "^6.14.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.0.1",
+    "cross-env": "^3.1.3",
+    "cssnano": "^3.7.3",
+    "envify": "^3.4.1",
+    "express": "^4.14.0",
+    "fs-promise": "^0.5.0",
+    "node-sass": "^3.8.0",
+    "node-watch": "^0.4.0",
+    "nunjucks": "^2.4.2",
+    "redux": "^3.5.2"
+  }
+}

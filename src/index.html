@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Phone number input r/ProgrammerHumor</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<button role="button" data-action="RESET" class="reset__btn">
+		Reset
+	</button>
+
+	<section class="phone-template">
+		<span></span>-<span></span>-<span></span>
+	</section>
+
+	<section class="phone-current-split">
+		<button role="button" data-action="VALUE_IS_LESS" class="less__btn">
+			<
+		</button>
+		<span class="value"></span>
+		<button role="button" data-action="VALUE_IS_GREATER" class="greater__btn">
+			>
+		</button>
+	</section>
+
+	<section class="user-inputs">
+		<button role="button" data-action="VALUE_IS_EQUAL" class="equal__btn">
+			✔
+		</button>
+	</section>
+
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
